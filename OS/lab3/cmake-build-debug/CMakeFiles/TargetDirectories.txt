@@ -1,3 +1,0 @@
-/cygdrive/c/Users/ilyanizovcev/Documents/Programming/UrFU/OS/lab3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/ilyanizovcev/Documents/Programming/UrFU/OS/lab3/cmake-build-debug/CMakeFiles/lab3.dir
-/cygdrive/c/Users/ilyanizovcev/Documents/Programming/UrFU/OS/lab3/cmake-build-debug/CMakeFiles/edit_cache.dir
