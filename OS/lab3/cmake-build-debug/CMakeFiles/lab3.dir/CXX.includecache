@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ilyanizovcev/Documents/Programming/UrFU/OS/lab3/main.cpp
+iostream
+-
+cstring
+-
+unistd.h
+-
+petersons.h
+/cygdrive/c/Users/ilyanizovcev/Documents/Programming/UrFU/OS/lab3/petersons.h
+
+/cygdrive/c/Users/ilyanizovcev/Documents/Programming/UrFU/OS/lab3/petersons.h
+
