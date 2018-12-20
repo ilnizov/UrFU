@@ -1,0 +1,29 @@
+%macro myMacros 2
+    .loop:
+        lodsb
+        cmp AL 0x0A
+        je .printOutput
+        cmp AL, byte[%1]
+        je .pushInStack
+        stosb
+        jmp .loop
+    
+    .printOutput:
+        mov AL, AH
+        cmp AL, byte[%1]
+        je .saveByteAndExit
+        jmp .exit
+        
+    .exit:
+        PRINT_STRING %2
+        ret
+    
+    .pushInStack:
+        mov AH, byte[%1]
+        jmp .loop
+        
+    .saveByteAndExit:
+        stosb
+        PRINT_STRING %2
+        ret
+%endmacro
